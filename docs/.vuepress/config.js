@@ -1,8 +1,8 @@
 /*
  * @Author: your name
  * @Date: 2021-09-12 17:33:37
- * @LastEditTime: 2021-09-12 19:22:41
- * @LastEditors: your name
+ * @LastEditTime: 2021-09-12 19:31:56
+ * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /vuepress Blog/docs/.vuepress/config.js
  */
@@ -30,7 +30,8 @@ module.exports = {
                     { text: '计算机网络', link: '/ComputerNetwork/' },
                     { text: '操作系统', link: '/OperatingSystem/' },
                 ]
-            }, // 外部链接
+            },
+            { text: '算法', link: '/FrontEnd/' }, // 外部链接
             { text: 'Github', link: 'https://github.com/Happyileaf' },
         ]
     },

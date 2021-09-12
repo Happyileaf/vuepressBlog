@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: https://avatars.githubusercontent.com/u/55348037?v=4
-heroText: 一米阳光梁韵奇的前端学习笔记
+heroText: Happyileaf
 tagline: 以你的努力程度之低，还轮不到拼天赋
 actionText: 开始学习 →
 actionLink: /zh/guide/
