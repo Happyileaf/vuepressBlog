@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2021-09-12 17:33:37
+ * @LastEditTime: 2021-09-12 19:22:41
+ * @LastEditors: your name
+ * @Description: In User Settings Edit
+ * @FilePath: /vuepress Blog/docs/.vuepress/config.js
+ */
 // .vuepress/config.js
 module.exports = {
     title: '前端学习笔记',
@@ -8,7 +16,7 @@ module.exports = {
         // 即 docs/.vuepress/public/img/geass-bg.ico
         ['link', { rel: 'icon', href: '/img/geass-bg.ico' }],
     ],
-    base: '', // 这是部署到github相关的配置
+    base: '/vuepressBlog/', // 这是部署到github相关的配置
     markdown: {
         lineNumbers: true // 代码块显示行号
     },
