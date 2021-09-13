@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-09-12 17:33:37
- * @LastEditTime: 2021-09-13 21:43:26
+ * @LastEditTime: 2021-09-13 21:50:18
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /vuepress Blog/docs/.vuepress/config.js
@@ -44,6 +44,11 @@ module.exports = {
   },
   sidebar: {
     // /bar/ 一个侧边栏，里面的三个页面共用一个侧边栏
+    '/FrontEnd/': [
+      '',           // ./bar/README.md文件，对应页面上/bar/路径
+      'page1',        // ./bar/one.md文件，对应页面上/bar/one.html
+      'page2',        // ./bar/two.md文件，对应页面上/bar/two.html
+    ],
     '/FrontEnd/': [
       '',           // ./bar/README.md文件，对应页面上/bar/路径
       'page1',        // ./bar/one.md文件，对应页面上/bar/one.html
