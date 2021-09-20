@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-09-12 17:33:37
- * @LastEditTime: 2021-09-20 18:26:35
+ * @LastEditTime: 2021-09-20 19:19:39
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /vuepress Blog/docs/.vuepress/config.js
@@ -87,8 +87,8 @@ module.exports = {
       // fallback
       '/': [
         '',        /* / */
-        'contact', /* /contact.html */
-        'about'    /* /about.html */
+        // 'contact', /* /contact.html */
+        // 'about'    /* /about.html */
       ],
 
     },
