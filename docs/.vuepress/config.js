@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-09-12 17:33:37
- * @LastEditTime: 2021-09-14 19:54:34
+ * @LastEditTime: 2021-09-20 18:26:35
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /vuepress Blog/docs/.vuepress/config.js
@@ -30,7 +30,6 @@ module.exports = {
           { text: 'Javascript基础', link: '/FrontEnd/Javascript/' },
         ]
       },
-      { text: '浏览器', link: '/Browser/' }, // 外部链接
       {
         text: '计算机基础', link: '/CS/',
         items: [
@@ -38,34 +37,62 @@ module.exports = {
           { text: '操作系统', link: '/OperatingSystem/' },
         ]
       },
-      { text: '算法', link: '/FrontEnd/' }, // 外部链接
+      { text: '浏览器', link: '/Browser/' }, // 外部链接
+
+      { text: '算法', link: '/Algorithm/' }, // 外部链接
+      { text: '笔经面经', link: '/Interview/record' }, // 外部链接
       { text: 'Github', link: 'https://github.com/Happyileaf' },
-    ]
+    ],
+    sidebar: {
+      '/FrontEnd/HTML/': [
+        '',     /* /foo/ */
+        'page1',  /* /foo/one.html */
+        'page2'   /* /foo/two.html */
+      ],
+      '/FrontEnd/CSS/': [
+        '',     /* /foo/ */
+        'page1',  /* /foo/one.html */
+        'page2'   /* /foo/two.html */
+      ],
+      '/FrontEnd/Javascript/': [
+        '',     /* /foo/ */
+        'page1',  /* /foo/one.html */
+        'page2'   /* /foo/two.html */
+      ],
+      '/CS/ComputerNetwork/': [
+        '',     /* /foo/ */
+        'page1',  /* /foo/one.html */
+        'page2'   /* /foo/two.html */
+      ],
+      '/CS/OperatingSystem/': [
+        '',     /* /foo/ */
+        'page1',  /* /foo/one.html */
+        'page2'   /* /foo/two.html */
+      ],
+      '/Browser/HTML/': [
+        '',     /* /foo/ */
+        'page1',  /* /foo/one.html */
+        'page2'   /* /foo/two.html */
+      ],
+      '/Algorithm/': [
+        '',     /* /foo/ */
+        'page1',  /* /foo/one.html */
+        'page2'   /* /foo/two.html */
+      ],
+      '/Interview/': [
+        '',     /* /foo/ */
+        'record',  /* /foo/one.html */
+        'page2'   /* /foo/two.html */
+      ],
+      // fallback
+      '/': [
+        '',        /* / */
+        'contact', /* /contact.html */
+        'about'    /* /about.html */
+      ],
+
+    },
   },
-  sidebar: {
-    // /bar/ 一个侧边栏，里面的三个页面共用一个侧边栏
-    
-    '/FrontEnd/': [
-      '',           // ./bar/README.md文件，对应页面上/bar/路径
-      'page1',        // ./bar/one.md文件，对应页面上/bar/one.html
-      'page2',        // ./bar/two.md文件，对应页面上/bar/two.html
-    ],
-    '/FrontEnd/': [
-      '',           // ./bar/README.md文件，对应页面上/bar/路径
-      'page1',        // ./bar/one.md文件，对应页面上/bar/one.html
-      'page2',        // ./bar/two.md文件，对应页面上/bar/two.html
-    ],
-    '/CS/': [
-      '',
-      'a',
-      'b',
-    ],
-    // 确保'/'侧边栏被最后定义。VuePress 会按顺序遍历侧边栏配置来寻找匹配的配置。
-    '/': [
-      '',
-      'home1',
-      'home2',
-      'home3',
-    ],
-  },
+
+
 }
