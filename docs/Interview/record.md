@@ -20,7 +20,7 @@ sidebar: auto
     子对象的nickName 是父对象的属性名为Attributes的兄弟对象的show属性加上“_”下划线，再加自身的show属性拼接而成。
     在实际应用中，params.json 是因每个项目不同，子对象嵌套层数可能不同(可能嵌套两层、三层、四层......)，但是格式不会发生变化，请在代码中考虑到通用化的情况。
 
-```
+```javascript
     let preData = {
     "g_unKown": {
         "Attributes": {
@@ -248,6 +248,13 @@ function isPowerOfFour(n) {
         扩大窗口长度（依次为1，3，5...）,窗口长度<=数组长度且为奇数，超出时不再扩大
         算法终止
 
+### 一面
+1. vue nextTick
+2. js数据类型
+3. 项目的难点
+4. class继承为什么要调用super
+5. java作为更标准的OO语言和js有什么不同？
+
 ## 云账户
 
 ### 笔试
@@ -266,3 +273,31 @@ function isPowerOfFour(n) {
 
         Map 统计 + 遍历找出最大值
 
+## 灵云雀
+### 一面 （1h）
+1. 实习做了什么事情？
+2. 用过的技术栈 html+css+javassscript sass vue node
+3. position的属性值，有什么作用？
+4. z-index？z-index会不会受postion定位的影响
+5. box-sizing，盒模型，两种盒模型有什么区别？
+6. onload,onDownContentLoaded
+7. onload,哪些资源加载完？
+8. 遍历数组的方法？
+9. 判断是不是数组？Object.prototype.toString.call(), Array.isArray(), instanceof, 还有没有其他的？
+10. js事件代理的概念，作用，使用场景
+11. http，401,403
+12. promise,all,race
+13. 笔试题
+    - 拍平数组，分了一层和多层数组
+    - 实现评分打星星，最后写出来了，但是思路不清楚，面试官nice，还允许百度查api
+        - 主要是获取用户点击的是哪个元素，以及怎么把分数和元素绑定
+        - 想的方法是给元素加一个属性，属性值就是分数。这样就写定了，不是动态的。
+        - 通过event.taget取到触发事件的元素，getAttribute()方法取出分数
+14. 第二个笔试题为什么是先写的外层逻辑再写的回调函数（因为一开始没想清楚怎么获取具体的点击元素）
+15. 除了加一个自定义属性标记分数，有没有什么其他的方法
+16. 实习遇到的问题，树形表格+懒加载的问题，面试官说用map存储的方法听起来有点hack，可能会有性能的问题
+17. 前端的学习路径
+18. 对容器有什么了解？（docker）
+19. 反问环节：
+    - Q:公司是做云原生的，前端工程师主要负责什么工作？
+    - A:可以参考阿里云，C端，对UI有比较多要求，云技术中台，PaaS平台
