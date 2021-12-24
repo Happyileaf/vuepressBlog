@@ -5,6 +5,7 @@ heroText: Happyileaf
 tagline: 以你的努力程度之低，还轮不到拼天赋
 actionText: 开始学习 →
 actionLink: /zh/guide/
+lang: zh-Ch
 features:
 - title: 前端基础
   details: HTML5，CSS3，Javascript，ES6，Vue，Webpack等等

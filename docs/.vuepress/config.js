@@ -8,8 +8,8 @@
  */
 // .vuepress/config.js
 module.exports = {
-  title: '前端学习笔记',
-  description: '练习文档',
+  title: 'Happyileaf Blog',
+  description: '前端学习文档',
   head: [
     // 增加一个自定义的 favicon(网页标签的图标)
     // 这里的 '/' 指向 docs/.vuepress/public 文件目录 
@@ -41,8 +41,8 @@ module.exports = {
 
       { text: '算法', link: '/Algorithm/' }, // 外部链接
       { text: '笔经面经', link: '/Interview/2021秋招' }, // 外部链接
-      { text: '掘金', link: 'https://juejin.cn/user/2524134429703063' },
-      { text: 'Github', link: 'https://github.com/Happyileaf' },
+      { text: '掘金', link: 'https://juejin.cn/user/2524134429703063', icon: 'reco-juejin' },
+      { text: 'Github', link: 'https://github.com/Happyileaf', icon: 'reco-github' },
     ],
     sidebar: {
       '/FrontEnd/HTML/': [
@@ -56,61 +56,80 @@ module.exports = {
         },
         {
           title: 'HTML5进阶',
-          path: '/FrontEnd/HTML/page1',
-          collapsable: true, // 不折叠
+          path: '/FrontEnd/HTML/',
+          collapsable: true, 
           children: [
-            { title: "HTML5新特性", path: "/FrontEnd/HTML/HTML5新特性" }
+            // { title: "HTML5新特性", path: "/FrontEnd/HTML/HTML5新特性" }
           ]
         },
         {
           title: 'HTML5拓展',
-          path: '/FrontEnd/HTML/page2',
-          collapsable: true, // 不折叠
+          path: '/FrontEnd/HTML/',
+          collapsable: true, 
           children: [
-            { title: "HTML5新特性", path: "/FrontEnd/HTML/HTML5新特性" }
+            // { title: "HTML5新特性", path: "/FrontEnd/HTML/HTML5新特性" }
           ]
         },
-        // '',     /* /foo/ */
-        // 'page1',  /* /foo/one.html */
-        // 'page2'   /* /foo/two.html */
       ],
       '/FrontEnd/CSS/': [
         {
           title: 'CSS基础',
           path: '/FrontEnd/CSS/',
-          collapsable: true, // 不折叠
+          collapsable: true, 
           children: [
             { title: "水平垂直居中的方法", path: "/FrontEnd/CSS/CSS 水平垂直居中的方法" }
           ]
         },
-        '',     /* /foo/ */
-        'page1',  /* /foo/one.html */
-        'page2'   /* /foo/two.html */
+        {
+          title: 'CSS进阶',
+          path: '/FrontEnd/CSS/',
+          collapsable: true, 
+          children: [
+            // { title: "水平垂直居中的方法", path: "/FrontEnd/CSS/CSS 水平垂直居中的方法" }
+          ]
+        },
+        {
+          title: 'CSS扩展',
+          path: '/FrontEnd/CSS/',
+          collapsable: true, 
+          children: [
+            // { title: "水平垂直居中的方法", path: "/FrontEnd/CSS/CSS 水平垂直居中的方法" }
+          ]
+        },
       ],
       '/FrontEnd/Javascript/': [
-        '',     /* /foo/ */
-        'page1',  /* /foo/one.html */
-        'page2'   /* /foo/two.html */
+        {
+          title: 'Javascript基础',
+          path: '/FrontEnd/Javascript/',
+          collapsable: true,
+          children: [
+            // { title: "Javascript基础", path: "/FrontEnd/Javascript/HTML5新特性" }
+          ]
+        },
+        {
+          title: 'Javascript进阶',
+          path: '/FrontEnd/Javascript/',
+          collapsable: true,
+          children: [
+            // { title: "Javascript进阶", path: "/FrontEnd/Javascript/HTML5新特性" }
+          ]
+        },
+        {
+          title: 'Javascript扩展',
+          path: '/FrontEnd/Javascript/',
+          collapsable: true,
+          children: [
+            // { title: "Javascript扩展", path: "/FrontEnd/Javascript/HTML5新特性" }
+          ]
+        },
       ],
       '/CS/ComputerNetwork/': [
-        '',     /* /foo/ */
-        'page1',  /* /foo/one.html */
-        'page2'   /* /foo/two.html */
       ],
       '/CS/OperatingSystem/': [
-        '',     /* /foo/ */
-        'page1',  /* /foo/one.html */
-        'page2'   /* /foo/two.html */
       ],
-      '/Browser/HTML/': [
-        '',     /* /foo/ */
-        'page1',  /* /foo/one.html */
-        'page2'   /* /foo/two.html */
+      '/Browser/': [
       ],
       '/Algorithm/': [
-        '',     /* /foo/ */
-        'page1',  /* /foo/one.html */
-        'page2'   /* /foo/two.html */
       ],
       '/Interview/': [
         {
