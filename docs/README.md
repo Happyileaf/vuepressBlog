@@ -4,7 +4,7 @@ heroImage: https://avatars.githubusercontent.com/u/55348037?v=4
 heroText: Happyileaf
 tagline: 以你的努力程度之低，还轮不到拼天赋
 actionText: 开始学习 →
-actionLink: /zh/guide/
+actionLink: /FrontEnd/Javascript/判断数据类型
 lang: zh-Ch
 features:
 - title: 前端基础

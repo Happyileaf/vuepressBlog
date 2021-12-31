@@ -48,7 +48,7 @@ module.exports = {
       '/FrontEnd/HTML/': [
         {
           title: 'HTML5基础',
-          path: '/FrontEnd/HTML/',
+          path: '/FrontEnd/HTML/HTML5新特性',
           collapsable: true,
           children: [
             { title: "HTML5新特性", path: "/FrontEnd/HTML/HTML5新特性" }
@@ -57,7 +57,7 @@ module.exports = {
         {
           title: 'HTML5进阶',
           path: '/FrontEnd/HTML/',
-          collapsable: true, 
+          collapsable: true,
           children: [
             // { title: "HTML5新特性", path: "/FrontEnd/HTML/HTML5新特性" }
           ]
@@ -65,7 +65,7 @@ module.exports = {
         {
           title: 'HTML5拓展',
           path: '/FrontEnd/HTML/',
-          collapsable: true, 
+          collapsable: true,
           children: [
             // { title: "HTML5新特性", path: "/FrontEnd/HTML/HTML5新特性" }
           ]
@@ -75,7 +75,7 @@ module.exports = {
         {
           title: 'CSS基础',
           path: '/FrontEnd/CSS/',
-          collapsable: true, 
+          collapsable: true,
           children: [
             { title: "水平垂直居中的方法", path: "/FrontEnd/CSS/CSS 水平垂直居中的方法" }
           ]
@@ -83,7 +83,7 @@ module.exports = {
         {
           title: 'CSS进阶',
           path: '/FrontEnd/CSS/',
-          collapsable: true, 
+          collapsable: true,
           children: [
             // { title: "水平垂直居中的方法", path: "/FrontEnd/CSS/CSS 水平垂直居中的方法" }
           ]
@@ -91,7 +91,7 @@ module.exports = {
         {
           title: 'CSS扩展',
           path: '/FrontEnd/CSS/',
-          collapsable: true, 
+          collapsable: true,
           children: [
             // { title: "水平垂直居中的方法", path: "/FrontEnd/CSS/CSS 水平垂直居中的方法" }
           ]
@@ -100,18 +100,23 @@ module.exports = {
       '/FrontEnd/Javascript/': [
         {
           title: 'Javascript基础',
-          path: '/FrontEnd/Javascript/',
+          path: '/FrontEnd/Javascript/判断数据类型',
           collapsable: true,
           children: [
-            // { title: "Javascript基础", path: "/FrontEnd/Javascript/HTML5新特性" }
+            { title: "判断数据类型", path: "/FrontEnd/Javascript/判断数据类型" },
+            { title: "浅谈Javascript中的继承", path: "/FrontEnd/Javascript/浅谈Javascript中的继承" },
+            { title: "箭头函数和普通函数的区别", path: "/FrontEnd/Javascript/箭头函数和普通函数的区别" }
           ]
         },
         {
           title: 'Javascript进阶',
-          path: '/FrontEnd/Javascript/',
+          path: '/FrontEnd/Javascript/对象的循环遍历',
           collapsable: true,
           children: [
-            // { title: "Javascript进阶", path: "/FrontEnd/Javascript/HTML5新特性" }
+            { title: "对象的循环遍历", path: "/FrontEnd/Javascript/对象的循环遍历" },
+            { title: "浅拷贝和深拷贝", path: "/FrontEnd/Javascript/浅拷贝和深拷贝" },
+            { title: "观察者模式和发布-订阅模式", path: "/FrontEnd/Javascript/观察者模式和发布-订阅模式" }
+
           ]
         },
         {
@@ -124,12 +129,48 @@ module.exports = {
         },
       ],
       '/CS/ComputerNetwork/': [
+        {
+          title: '基础',
+          path: '/CS/ComputerNetwork/浅析HTTP状态码',
+          collapsable: true,
+          children: [
+            { title: "对象的循环遍历", path: "/CS/ComputerNetwork/浅析HTTP状态码" },
+            { title: "TCP和UDP的区别", path: "/CS/ComputerNetwork/TCP和UDP的区别" },
+          ]
+        },
+
       ],
       '/CS/OperatingSystem/': [
+        {
+          title: '基础',
+          path: '/Browser/输入URL之后发生了什么',
+          collapsable: true,
+          children: [
+            { title: "输入URL之后发生了什么", path: "/Browser/输入URL之后发生了什么" },
+          ]
+        },
+
       ],
       '/Browser/': [
+        {
+          title: '基础',
+          path: '/Browser/输入URL之后发生了什么',
+          collapsable: true,
+          children: [
+            { title: "输入URL之后发生了什么", path: "/Browser/输入URL之后发生了什么" },
+          ]
+        },
       ],
       '/Algorithm/': [
+        {
+          title: '基础',
+          path: '/Algorithm/数组乱序',
+          collapsable: true,
+          children: [
+            { title: "数组乱序", path: "/Algorithm/数组乱序" },
+          ]
+        },
+
       ],
       '/Interview/': [
         {
@@ -144,8 +185,8 @@ module.exports = {
       // fallback
       '/': [
         '',        /* / */
-        // 'contact', /* /contact.html */
-        // 'about'    /* /about.html */
+        'contact', /* /contact.html */
+        'about'    /* /about.html */
       ],
 
     },
